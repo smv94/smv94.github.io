@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Navbar Testing</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/uikit.min.css" />
+		<script src="js/uikit.min.js"></script>
+		<script src="js/uikit-icons.min.js"></script>
+
+	</head>
+    <body>
+		
+		<!-- Make the navbar a sticky navbar so that it stays at the top even when scrolling through -->
+		<nav class="uk-navbar-container" uk-navbar>
+
+			<div class="uk-navbar-left">
+				<!-- Add logo in front of Bravitek somehow. -->
+				<div class="uk-navbar-item">Bravitek</div>
+
+			</div>
+
+			<div class="uk-navbar-right">
+
+		        <ul class="uk-navbar-nav">
+		            <li><a href="#">About</a></li>
+		            <li><a href="#">Promoters</a></li>
+		            <li>
+						<a href="#">Products</a>
+						<!-- Customize CSS for the dropdown so that it looks prettier -->
+						<div class="uk-navbar-dropdown">
+							<ul class="uk-nav uk-navbar-dropdown-nav">
+								<li><a href="#">BMS</a></li>
+								<li><a href="#">Simulator</a></li>
+							</ul>
+						</div>
+					</li>
+		            <li><a href="careers.html">Careers</a></li>
+		            <li><a href="#">Gallery</a></li>
+		            <li><a href="#">Contact Us</a></li>
+					
+		        </ul>
+		
+		    </div>
+		</nav>
+	</body>
+</html>
